@@ -1,0 +1,148 @@
+/*init grid*/
+body {
+  font-size: 100%;
+  -webkit-text-size-adjust: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+.row:before, .row:after {
+  content: '';
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row {
+  *zoom: 1;
+  margin-left: -2%;
+}
+.row [class*=col] {
+  margin-left: 2%;
+  display: block;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  .col-1 {
+    width: 6.333%;
+  }
+  .col-2 {
+    width: 14.667%;
+  }
+  .col-3 {
+    width: 23%;
+  }
+  .col-4 {
+    width: 31.333%;
+  }
+  .col-5 {
+    width: 39.667%;
+  }
+  .col-6 {
+    width: 48%;
+  }
+  .col-7 {
+    width: 56.333%;
+  }
+  .col-8 {
+    width: 64.667%;
+  }
+  .col-9 {
+    width: 73%;
+  }
+  .col-10 {
+    width: 81.333%;
+  }
+  .col-11 {
+    width: 89.667%;
+  }
+  .col-12 {
+    width: 98%;
+  }
+}
+.row {
+  .offset-1 {
+    margin-left: 10.333%;
+  }
+  .offset-2 {
+    margin-left: 18.667%;
+  }
+  .offset-3 {
+    margin-left: 27%;
+  }
+  .offset-4 {
+    margin-left: 35.333%;
+  }
+  .offset-5 {
+    margin-left: 43.667%;
+  }
+  .offset-6 {
+    margin-left: 52%;
+  }
+  .offset-7 {
+    margin-left: 60.333%;
+  }
+  .offset-8 {
+    margin-left: 68.667%;
+  }
+  .offset-9 {
+    margin-left: 77%;
+  }
+  .offset-10 {
+    margin-left: 85.333%;
+  }
+  .offset-11 {
+    margin-left: 93.667%;
+  }
+}
+@media (min-width:1200px) {
+  body {
+    font-size: 1.125em;
+  }
+  .container {
+    width: 1160px;
+  }
+}
+@media (min-width:768px) and (max-width:980px) {
+  .container {
+    width: 728px;
+  }
+}
+@media (max-width:768px) {
+  body {
+    font-size: 1.125em;
+  }
+  .container {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .row [class*=col] {
+    margin-left: 2%;
+  }
+  .row [class*=col], .row .s4 {
+    width: 98%;
+  }
+  .row {
+    .s1 {
+      width: 23%;
+    }
+    .s2 {
+      width: 48%;
+    }
+    .s3 {
+      width: 73%;
+    }
+  }
+}
+@media (max-width:480px) {
+  body {
+    font-size: 1em;
+  }
+}
+/* End Grid*/

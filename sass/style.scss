@@ -1,6 +1,102 @@
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: $fondo; 
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px;
+}
+
+h1 {
+	font-size: 2.3em;
+    line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+#main-header {
+	background: $celesteOscuro;
+	color: $negro;
+	height: 80px;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+	a {
+		color: $negro;
+	}
+	#logo-header {
+		float: left;
+		padding: 15px 0 0 20px;
+		text-decoration: none;
+		&:hover {
+			color: #C7FDFE;
+		}
+		
+		.site-name {
+			display: block;
+			font-weight: 700;
+			font-size: 1.2em;
+		}
+		
+		.site-desc {
+			display: block;
+			font-weight: 300;
+			font-size: 0.8em;
+			color: #C7FDFE;
+			&:hover{
+				color: white;
+			}
+		}
+		
+	}
+	nav {
+		float: right;
+		 ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			padding-right: 20px;
+			li {
+				display: inline-block;
+				line-height: 80px;
+				a {
+					display: block;
+					padding: 0 10px;
+					text-decoration: none;
+					&:hover {
+						background: $hover;
+						color:white;
+					}
+				}
+			}
+		}	
+	}
+		
+}	
+#main-content header {
+	padding: 40px;
+}
+#main-footer {
+	background: $celesteOscuro;
+	color: $negro;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
 input, textarea{
   display: block;
   width: 90%;
   margin: 10px auto;
   text-align: center;
+}
+img{
+	width: 100%;
 }

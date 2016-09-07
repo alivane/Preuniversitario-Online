@@ -109,10 +109,90 @@ body {
   body {
     font-size: 1em; } }
 /* End Grid*/
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #666;
+  background: #f2f2f2;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 80px; }
+
+h1 {
+  font-size: 2.3em;
+  line-height: 1.3em;
+  margin: 15px 0;
+  text-align: center;
+  font-weight: 300; }
+
+#main-header {
+  background: #13AD96;
+  color: white;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed; }
+  #main-header a {
+    color: white; }
+  #main-header #logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none; }
+    #main-header #logo-header:hover {
+      color: #C7FDFE; }
+    #main-header #logo-header .site-name {
+      display: block;
+      font-weight: 700;
+      font-size: 1.2em; }
+    #main-header #logo-header .site-desc {
+      display: block;
+      font-weight: 300;
+      font-size: 0.8em;
+      color: #C7FDFE; }
+      #main-header #logo-header .site-desc:hover {
+        color: white; }
+  #main-header nav {
+    float: right; }
+    #main-header nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      padding-right: 20px; }
+      #main-header nav ul li {
+        display: inline-block;
+        line-height: 80px; }
+        #main-header nav ul li a {
+          display: block;
+          padding: 0 10px;
+          text-decoration: none; }
+          #main-header nav ul li a:hover {
+            background: #0E8071;
+            color: white; }
+
+#main-content header {
+  padding: 40px; }
+
+#main-footer {
+  background: #13AD96;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px; }
+
 input, textarea {
   display: block;
   width: 90%;
   margin: 10px auto;
   text-align: center; }
+
+img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

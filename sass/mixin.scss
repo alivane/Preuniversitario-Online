@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding-top: 100px;
+    padding-top: 70px;
     img{
     	padding: 15px;
     	background-color: transparent;
@@ -20,5 +20,8 @@
     		text-decoration: none;
     		color: $hover;
     	}
+    }
+    img{
+        height: 250px;
     }
 }

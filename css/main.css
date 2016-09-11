@@ -303,10 +303,9 @@ h2 {
   background: #17BAA2;
   font-weight: 800;
   padding: 10px;
-  border-bottom: 3px solid #13AD96;
+  border-bottom: 3px solid white;
   border-left: 3px solid whitesmoke;
-  margin-top: 10px;
-  margin-bottom: 50px; }
+  margin-top: 10px; }
 
 #main-content header {
   padding: 40px; }

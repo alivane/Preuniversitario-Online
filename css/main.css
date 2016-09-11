@@ -554,7 +554,8 @@ button {
   .da-thumbs li a,
   .da-thumbs li a img {
     display: block;
-    position: relative; }
+    position: relative;
+    height: 200px; }
 
 /*imagenes*/
 input {

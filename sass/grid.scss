@@ -136,11 +136,22 @@ body {
   .nav1{
     display:inline-block;
   }
-  .none{
-    display: none !important;
-    img{
+  .row{
+    .col-6{
       width: 100%;
     }
+    .col-4{
+      width: 100%;
+    }
+    .col-5{
+      width: 100%;
+    }
+    .col-8{
+      width: 100%;
+    }
+  }
+  .none{
+    display: none !important;
   }
 }
 @media (max-width:768px) {

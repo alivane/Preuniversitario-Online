@@ -230,12 +230,12 @@ button{
 .da-thumbs {
 	list-style: none;
 	width: 100%;
-    height: 500px;
+    
 	position: relative;
 	padding: 0;
 	display: block;
 	li {
-		float: left;
+		display: inline-block;
 		margin: 10px;
 		width: 350px;
 		background: #fff;

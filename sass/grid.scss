@@ -3,6 +3,15 @@ body {
   font-size: 100%;
   -webkit-text-size-adjust: none;
 }
+.nav{
+    display:inline-block;
+}
+.nav1{
+  display:none;
+}
+.none{
+  display: block!important;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -107,10 +116,31 @@ body {
   .container {
     width: 1160px;
   }
+  .nav{
+    display:inline-block;
+  }
+  .nav1{
+    display:none;
+  }
+  .none{
+    display: block !important;
+  }
 }
 @media (min-width:768px) and (max-width:980px) {
   .container {
     width: 728px;
+  }
+  .nav{
+    display:none;
+  }
+  .nav1{
+    display:inline-block;
+  }
+  .none{
+    display: none !important;
+    img{
+      width: 100%;
+    }
   }
 }
 @media (max-width:768px) {
@@ -139,10 +169,37 @@ body {
       width: 73%;
     }
   }
+  .nav{
+    display:none;
+  }
+  .nav1{
+    display: inline-block;
+    li{
+        width: 350px!important;
+        height: 70px;
+      }
+  }
+
+  .none{
+    display: none !important;
+  }
 }
 @media (max-width:480px) {
   body {
     font-size: 1em;
+  }
+  .nav{
+    display:none;
+  }
+  .nav1{
+    display: inline-block;
+    li{
+        width: 200px!important;
+        height: 70px;
+      }
+  }
+  .none{
+    display: none !important;
   }
 }
 /* End Grid*/

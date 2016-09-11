@@ -32,7 +32,10 @@ p{
 }
 h3{
 	text-align: center;
-
+	font-size: 30px;
+	line-height:60px;
+	font-family: 'Arimo', sans-serif;
+	color: #0C6945;
 
 }
 h2{
@@ -124,20 +127,22 @@ h2{
 	@include fondo('../img/portada.jpg');
 }
 .fondo1{
-	@include fondo('../img/portada.jpg');
-}
-.fondo2{
-    @include fondo('../img/portada.jpg');
+	@include fondo('../img/fondo1.jpg');
 }
 .fondo3{
-	@include fondo('../img/portada.jpg');
+	@include fondo('../img/fondo4.jpg');
 }
 #mision{
 	padding-top:70px;
 	padding-bottom:100px;
+	img{
+		width: 30%;
+		height: 200px;
+		border-radius: 40px;
+	}
 }
 #uso{
-	@include fondo('../img/portada.jpg');
+	@include fondo('../img/fondo.jpg');
 	padding-top: 20px;
 	padding-bottom:150px;
 

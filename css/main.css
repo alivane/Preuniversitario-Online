@@ -200,7 +200,11 @@ p {
   font-weight: 600; }
 
 h3 {
-  text-align: center; }
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  font-family: 'Arimo', sans-serif;
+  color: #0C6945; }
 
 h2 {
   font-family: 'Baloo Chettan', cursive;
@@ -311,21 +315,19 @@ h2 {
   padding: 40px; }
 
 .fondo {
-  height: 400px;
+  height: 450px;
   width: 100%;
   background-image: url("../img/portada.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 70px; }
   .fondo img {
-    padding: 15px;
-    background-color: transparent;
     width: 80%;
-    border: 4px solid #0E8071;
-    border-radius: 50px; }
+    height: 310px !important;
+    border-radius: 50px;
+    margin-top: 40px; }
   .fondo h2 a {
     text-align: center;
     text-decoration: none;
@@ -337,21 +339,19 @@ h2 {
     height: 250px; }
 
 .fondo1 {
-  height: 400px;
+  height: 450px;
   width: 100%;
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/fondo1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 70px; }
   .fondo1 img {
-    padding: 15px;
-    background-color: transparent;
     width: 80%;
-    border: 4px solid #0E8071;
-    border-radius: 50px; }
+    height: 310px !important;
+    border-radius: 50px;
+    margin-top: 40px; }
   .fondo1 h2 a {
     text-align: center;
     text-decoration: none;
@@ -362,48 +362,20 @@ h2 {
   .fondo1 img {
     height: 250px; }
 
-.fondo2 {
-  height: 400px;
-  width: 100%;
-  background-image: url("../img/portada.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 70px; }
-  .fondo2 img {
-    padding: 15px;
-    background-color: transparent;
-    width: 80%;
-    border: 4px solid #0E8071;
-    border-radius: 50px; }
-  .fondo2 h2 a {
-    text-align: center;
-    text-decoration: none;
-    color: #0E8071;
-    transition: color 0.3s linear 0.2s; }
-  .fondo2 h2 a:hover {
-    color: #06ABB2; }
-  .fondo2 img {
-    height: 250px; }
-
 .fondo3 {
-  height: 400px;
+  height: 450px;
   width: 100%;
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/fondo4.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 70px; }
   .fondo3 img {
-    padding: 15px;
-    background-color: transparent;
     width: 80%;
-    border: 4px solid #0E8071;
-    border-radius: 50px; }
+    height: 310px !important;
+    border-radius: 50px;
+    margin-top: 40px; }
   .fondo3 h2 a {
     text-align: center;
     text-decoration: none;
@@ -417,25 +389,27 @@ h2 {
 #mision {
   padding-top: 70px;
   padding-bottom: 100px; }
+  #mision img {
+    width: 30%;
+    height: 200px;
+    border-radius: 40px; }
 
 #uso {
-  height: 400px;
+  height: 450px;
   width: 100%;
-  background-image: url("../img/portada.jpg");
+  background-image: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   padding-top: 70px;
-  padding-bottom: 70px;
   padding-top: 20px;
   padding-bottom: 150px; }
   #uso img {
-    padding: 15px;
-    background-color: transparent;
     width: 80%;
-    border: 4px solid #0E8071;
-    border-radius: 50px; }
+    height: 310px !important;
+    border-radius: 50px;
+    margin-top: 40px; }
   #uso h2 a {
     text-align: center;
     text-decoration: none;

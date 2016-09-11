@@ -6,11 +6,6 @@ myFunction()
 		$('.fondo2').add('.fondo3').add('.fondo').hide()
 		console.log("2")
 	}
-	function cambiarFondo1(){
-		$('.fondo2').show();
-		$('.fondo1').add('.fondo3').add('.fondo').hide()
-		console.log("3")
-	}
 	function cambiarFondo2(){
 		$('.fondo3').show();
 		$('.fondo1').add('.fondo2').add('.fondo').hide()
@@ -24,9 +19,8 @@ myFunction()
 	var nuevoFondo;
 	function myFunction(){
 		nuevoFondo = setInterval(cambiarFondo,6000);
-		nuevoFondo = setInterval(cambiarFondo1,12000);
-		nuevoFondo = setInterval(cambiarFondo2,18000);
-		nuevoFondo = setInterval(cambiarFondo3,24000);
+		nuevoFondo = setInterval(cambiarFondo2,12000);
+		nuevoFondo = setInterval(cambiarFondo3,18000);
 	}
 	/*AQUI EMPIEZA*/
 	/**

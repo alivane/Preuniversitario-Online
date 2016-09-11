@@ -1,5 +1,5 @@
 @mixin fondo ($url){
-	height: 400px;
+	height: 450px;
 	width: 100%;
 	background-image: url($url);
     background-repeat: no-repeat;
@@ -7,13 +7,11 @@
     background-position: center;
     background-size: cover;
     padding-top: 70px;
-    padding-bottom: 70px;
     img{
-    	padding: 15px;
-    	background-color: transparent;
     	width: 80%;
-    	border: 4px solid $hover;
+        height: 310px!important;
     	border-radius: 50px;
+        margin-top:40px;
     }
     h2{
     	a{

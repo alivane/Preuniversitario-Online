@@ -18,9 +18,9 @@ myFunction()
 	}
 	var nuevoFondo;
 	function myFunction(){
-		nuevoFondo = setInterval(cambiarFondo,6000);
-		nuevoFondo = setInterval(cambiarFondo2,15000);
-		nuevoFondo = setInterval(cambiarFondo3,10000);
+		nuevoFondo = setInterval(cambiarFondo,10000);
+		nuevoFondo = setInterval(cambiarFondo2,20000);
+		nuevoFondo = setInterval(cambiarFondo3,30000);
 	}
 	/*AQUI EMPIEZA*/
 	/**
